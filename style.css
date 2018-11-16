@@ -1,0 +1,387 @@
+*{
+    font-family: lbc-regular;
+}
+.font_ar{
+    font-family: lbc-regular;
+}
+.font_en{
+    font-family: 'Baloo Chettan', cursive;
+}
+body{
+    background: #fff;
+}
+a{
+    color: #999;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 14px 2px;
+    font-size: 28px;
+    line-height: 20px;
+}
+a#menu-toggle {
+    float: right;
+    font-size: 34px;
+    margin-left: 24px;
+    margin-top: 0px;
+    color: #fff;
+    margin-right: 0;
+}
+@media (max-width: 768px) {
+a#menu-toggle {
+    float: right;
+    font-size: 34px;
+    margin-left: 12px;
+    margin-top: 2px;
+    color: #fff;
+    margin-right: 16px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 16px 2px;
+    font-size: 28px;
+    line-height: 20px;
+}   
+    
+    
+    
+    
+}
+
+
+.preload img{
+    height: 70px;
+}
+.all{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+a:active,a:hover,a:focus{
+    color: #999;
+}
+.form-control:focus {
+    border-color: #0089ff;
+    outline: 0;
+     -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6); 
+     box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6); 
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+@font-face {
+    font-family: lbc-regular;
+    src: url(lbc-regular.otf);
+}
+.color_name{
+    color: #fff;
+}
+.color_name1{
+    color: #fff;
+}
+.menuI{
+    margin-top: 10px;
+}
+.principal{
+	margin-top: 50px;
+	margin-bottom: 49px;
+}
+.menu span{
+	color: #999;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+.dark{
+    margin-left: 15px;
+    margin-top: 11px;
+    font-size: 18px;
+}
+.g{
+    margin-top: -6px;
+}
+.name{
+    margin-top: -4px;
+    margin-right: 12px;
+    font-size: 18px;
+}
+.dec{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.v{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    margin-right: 12px;
+}
+.home{
+	width: 100%;
+    margin: auto;
+}
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.logo-app{
+    padding: 2px;
+    height: 65px;
+    width: 65px;
+    margin-top: -3px;
+    margin-left: -7px;
+    float: right;
+    border-radius: 7px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    border-radius: 22px;
+    background: linear-gradient(90deg,#a753ac, #564dbe) !important;
+}
+.navbar-default {
+    border-bottom: 1px solid #ffffff;
+    background: linear-gradient(90deg,#a753ac, #564dbe) !important;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff0;
+}
+.pagination > li > a, .pagination > li > span {
+    float: right;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 22px;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee0;
+    border-color: #ddd0;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff0;
+    border: 0px solid #ddd;
+}
+.list-group{
+    margin-top: 7px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .05);
+    transition: all 0.3s ease;
+}
+.list-group-item{
+    margin-top: 0px;
+    height: 80px;
+    margin-top: 0px;
+    height: 80px;
+    border: 0px solid #cccccc80;
+    border-top: 0px solid #cccccc80;
+    border-bottom: 0px solid #cccccc80;
+}
+.badge{
+	padding: 7px;
+	margin-top: 11px; 
+    float: right;
+    margin-top: 8px;
+    font-size: 25px;
+}
+.btn-group-lg>.btn, .btn-lg{
+    padding: 4px 7px 3px 7px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-default {
+    color: #007aff;
+    background: #fff0;
+    border: none;
+}
+.alert-danger {
+    color: #fff;
+    background-color: #a94442;
+    border-color: #9e2320;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+}
+.img_app {
+    width: 115px;
+    height: 115px;
+    margin-top: 14px;
+    border-radius: 30px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.demoPadder {
+    margin-top: -11px;
+    margin-left: 14px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+  background: #fff0;
+}
+.top {
+    /* height: 375px; */
+    background: #253647;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+#triangle {
+    transform: skew(30deg);
+    -o-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -webkit-transform: skew(30deg);
+    background: #8734f7;
+    height: 100px;
+    width: 160px;
+}
+.footer {
+    width: 100%;
+    float: left;
+    background: #253647;
+    height: 90px;
+}
+.navbar-brand {
+    float: right;
+    color: #fff;
+    margin-right: 17px;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: #007aff;
+    border-color: #007aff;
+}
+.topweb {
+    padding: 10px;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg,#a753ac, #564dbe) !important;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff0;
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px 0px #99999952;
+    transition: border .2s ease-in-out;
+}
+.center{
+    text-align: center;
+}
+.name_app{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bor{
+    border-radius: 4px;
+}
+.wow:first-child {
+      visibility: hidden;
+}
+.emad {
+    color: #ffffff;
+    background: linear-gradient(90deg,#a753ac, #564dbe) !important;
+    margin-top: 27px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.emad:active,.emad:focus,.emad:hover{
+    color: #ffffff;
+}
+.content {
+	display:none;
+}
+.preload {
+	margin:0;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-right: -50%;
+	transform:translate(-50%, -50%);
+}
+.footer2 {
+    float: left;
+    margin-left: 17px;
+    margin-top: -14px;
+}
+.c{
+    margin-bottom: 5px; 
+}
+.btnemad{
+    color:#999;
+    float: left;
+    margin-left: 12px;
+}
+.img_app1{
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 12px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    float: right;
+}
+.well {
+    box-shadow: -1px -1px 7px 0px #000000;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 0;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
